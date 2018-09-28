@@ -9,7 +9,7 @@ public class TestController {
 
 	@RequestMapping("/welcome.html")
 	public ModelAndView firstPage() {
-		return new ModelAndView("welcome");
+		return new ModelAndView("welcome To My application");
 	}
 
 }
